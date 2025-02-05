@@ -1,0 +1,18 @@
+digraph {
+	neutre [label=etat_neutre color=green shape=doublecircle]
+	if [label=etat_if shape=circle]
+	while [label=etat_while shape=circle]
+	for [label=etat_for shape=circle]
+	assignement [label=etat_var shape=circle]
+	print [label=etat_print shape=circle]
+	neutre -> if [label=if]
+	neutre -> while [label=while]
+	neutre -> for [label=for]
+	neutre -> assignement [label=var]
+	if -> neutre [label=return]
+	while -> neutre [label=return]
+	for -> neutre [label=return]
+	assignement -> neutre [label=return]
+	print -> neutre [label=return]
+	neutre -> print [label=print]
+}
