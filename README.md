@@ -15,4 +15,8 @@ Verify the installation:
 
 Open a new Command Prompt window and type dot -version to verify that Graphviz is correctly installed and accessible from the command line.
 After completing these steps, try running your Python script.
+
+
+
+
 ![automate](https://github.com/user-attachments/assets/15262a9a-7f96-4128-863c-403fc4258760)
